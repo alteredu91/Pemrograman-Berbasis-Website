@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h2>Login Admin</h2>
 <form action="login.php" method="post">
     <label for="username">Username:</label><br>
@@ -5,4 +6,13 @@
     <label for="password">Password:</label><br>
     <input type="password" name="password" required><br><br>
     <input type="submit" value="Login">
+=======
+<h2>Login Admin</h2>
+<form action="login.php" method="post">
+    <label for="username">Username:</label><br>
+    <input type="text" name="username" required><br><br>
+    <label for="password">Password:</label><br>
+    <input type="password" name="password" required><br><br>
+    <input type="submit" value="Login">
+>>>>>>> 2301cd0 (initial commit)
 </form>

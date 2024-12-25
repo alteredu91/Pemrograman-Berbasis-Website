@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembayaran PLN</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pembayaran PLN</h1>
+        <form id="payment-form">
+            <label for="customer_id">ID Pelanggan:</label>
+            <input type="text" id="customer_id" name="customer_id" required>
+            
+            <label for="amount">Jumlah:</label>
+            <input type="number" id="amount" name="amount" required>
+            
+            <button type="submit">Bayar</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
